@@ -7,13 +7,7 @@ uint16_t AD0, AD1, AD2, AD3;
 
 int main(void)
 {
-	OLED_Init();
-	AD_Init();
-	
-	OLED_ShowString(1, 1, "AD0:");
-	OLED_ShowString(2, 1, "AD1:");
-	OLED_ShowString(3, 1, "AD2:");
-	OLED_ShowString(4, 1, "AD3:");
+
 	
 	while (1)
 	{
