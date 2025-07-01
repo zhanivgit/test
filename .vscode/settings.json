@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.markdown": "markdown",
+        "stm32f10x.h": "c",
+        "delay.h": "c"
+    }
+}
